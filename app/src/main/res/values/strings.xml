@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">News Show</string>
+
+    <!-- Text to display in the list when there are no earthquakes [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <string name="no_date">No data available.</string>
+
+    <string name="by">By </string>
+    <string name="by_unknown">By unknown</string>
+    <string name="tags">tags</string>
+    <string name="no_tag">No tag is available!</string>
+    <string name="parse_error">Problem parsing the news JSON results</string>
+    <string name="query_utils">QueryUtils</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Yash News Settings</string>
+
+    <string name="settings_news_label">Number of News</string>
+    <string name="settings_news_key" translatable="false">number_of_news</string>
+    <string name="settings_news_default" translatable="false">@string/settings_no_of_news</string>
+
+    <string name="settings_no_of_news">10</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+</resources>

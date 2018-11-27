@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_list_item"
+    style="@style/LayoutStyle"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="@dimen/zeroD"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_news"
+            style="@style/CustomText"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/textColorNewsTitle"
+            android:textSize="@dimen/sixteenS"
+            tools:text="Title of the news" />
+
+        <TextView
+            android:id="@+id/author_news"
+            style="@style/CustomText"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textColor="@color/textColorNewsDetails"
+            android:textSize="@dimen/twelveS"
+            tools:targetApi="jelly_bean"
+            tools:text="Author of News" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/date"
+        style="@style/CustomText"
+        android:layout_gravity="bottom"
+        android:padding="@dimen/tenD"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/twelveS"
+        tools:text="Mar 05, 2018" />
+
+</LinearLayout>
